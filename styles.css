@@ -2337,3 +2337,76 @@ p {
 }.hero-content h1 {
   max-width: 600px; /* Ajuste selon tes besoins */
 }
+/* Bouton flottant GPS */
+.floating-gps-btn {
+  position: fixed;
+  bottom: 100px; /* Aligné juste au-dessus du bouton WhatsApp */
+  right: 25px;
+  background: #c8001a;
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 22px;
+  border-radius: 50px;
+  box-shadow: 0 4px 20px rgba(200, 0, 26, 0.4);
+  z-index: 99999;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  animation: pulseGps 2s infinite;
+}
+
+.floating-gps-btn:hover {
+  background: #a00014;
+  transform: scale(1.05);
+}
+
+/* Version Mobile */
+@media (max-width: 768px) {
+  .floating-gps-btn {
+    padding: 14px;
+    bottom: 95px;
+    right: 20px;
+    border-radius: 50%;
+  }
+  .floating-gps-btn .gps-text {
+    display: none;
+  }
+}
+
+@keyframes pulseGps {
+  0% { box-shadow: 0 0 0 0 rgba(200, 0, 26, 0.7); }
+  70% { box-shadow: 0 0 0 15px rgba(200, 0, 26, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(200, 0, 26, 0); }
+}html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}h1, h2, h3, .heading-1 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}/* Nouvelle configuration Mobile pour le bouton flottant GPS */
+@media (max-width: 768px) {
+  .floating-gps-btn {
+    /* Ajustement de la position pour ne pas gêner WhatsApp */
+    padding: 10px 16px !important; /* Réduit la taille générale */
+    bottom: 95px !important;
+    right: 20px !important;
+    border-radius: 30px !important; /* Reste en forme de capsule/pilule, pas un rond */
+  }
+
+  .floating-gps-btn .gps-text {
+    display: inline !important; /* RE-AFFICHE le texte sur mobile ! */
+    font-size: 11px !important;  /* Texte plus petit pour rester discret */
+    letter-spacing: 0.5px;
+  }
+  
+  .floating-gps-btn .gps-icon {
+    font-size: 14px !important; /* Ajuste la taille de l'émoji cible */
+  }
+}

@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="icon" href="data:,">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Korina KAJ — Leadership & Transformation</title>
@@ -1691,6 +1692,51 @@
                 padding: 0 18px;
             }
         }
+        /* Bouton flottant GPS pour la section Leadership */
+.floating-gps-btn {
+  position: fixed;
+  bottom: 100px;
+  right: 25px;
+  background: #c8001a;
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 22px;
+  border-radius: 50px;
+  box-shadow: 0 4px 20px rgba(200, 0, 26, 0.4);
+  z-index: 99999;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  animation: pulseGps 2s infinite;
+}
+
+.floating-gps-btn:hover {
+  background: #a00014;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .floating-gps-btn {
+    padding: 14px;
+    bottom: 95px;
+    right: 20px;
+    border-radius: 50%;
+  }
+  .floating-gps-btn .gps-text {
+    display: none;
+  }
+}
+
+@keyframes pulseGps {
+  0% { box-shadow: 0 0 0 0 rgba(200, 0, 26, 0.7); }
+  70% { box-shadow: 0 0 0 15px rgba(200, 0, 26, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(200, 0, 26, 0); }
+}
     </style>
 </head>
 <body>
@@ -1709,6 +1755,7 @@
                     <li><a href="#vision" class="navbar__link">Vision</a></li>
                     <li><a href="#gps" class="navbar__link">Méthode GPS</a></li>
                     <li><a href="#programmes" class="navbar__link">Programmes</a></li>
+                    <li><a href="../essaie korina/tracking-inGPS.html" class="navbar__link" style="color: var(--color-gold); font-weight: 700;">🎯 Programme GPS</a></li>
                     <li><a href="#" class="navbar__link navbar__cta" data-wa="general">Me contacter</a></li>
                 </ul>
                 <button class="navbar__toggle" id="navToggle" aria-label="Menu">
@@ -2245,6 +2292,10 @@
 
     })();
     </script>
+    <!-- Bouton Flottant GPS pour la page Leadership (Remonte d'un niveau puis entre dans essaie korina) -->
+<a href="../essaie korina/tracking-inGPS.html" class="floating-gps-btn" title="Postuler au Protocole GPS">
+  <span class="gps-icon">🎯</span>
+  <span class="gps-text">Tracking-in GPS</span>
+</a>
 </body>
 </html>
-```

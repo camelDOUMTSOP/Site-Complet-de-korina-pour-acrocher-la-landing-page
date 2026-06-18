@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Lionne GPS — Korina KAJ | Accompagnement Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400;1,600&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Barlow+Condensed:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tracking-inGPS.css">
+</head>
+<body>
+
+    <div id="urgency-bar">
+    <div class="timer-text">Votre offre se termine dans : <span id="countdown">15:00</span></div>
+    
+    <a href="javascript:void(0)" onclick="goTo(10)" class="btn-urgency" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none;">
+    <span>Je profite de mon offre maintenant</span>
+    </a>
+</div>
+
+    <div id="top-bar"><div id="progress-fill"></div></div>
+    <div id="brand-tag"><strong>Korina KAJ</strong> — La Lionne GPS</div>
+    <div id="step-tag">01 / 11</div>
+
+    <main>
+        <section id="p1" class="page bg-dark active">
+            <div class="noise"></div>
+            <div class="glow-red" style="width:500px;height:500px;top:-100px;left:-150px;"></div>
+            <div class="grid-lines"></div>
+            <div class="ring" style="width:320px;height:320px;"></div>
+            <div class="ring" style="width:500px;height:500px;opacity:0.5;"></div>
+
+            <div class="inner">
+                <div class="p1-badge">⚠️ Message sans filtre — Lis jusqu'au bout</div>
+                <div class="eyebrow">Accompagnement Premium</div>
+                <h1 class="h1">Tu travailles beaucoup… <em>mais tes résultats stagnent ?</em></h1>
+
+                <div class="slide-image-wrap">
+                    <img src="slides1CORIGER.jpeg" alt="Intro Lionne GPS">
+                </div>
+
+                <div class="p1-intro">
+                    <p>Ce message n'est pas là pour te motiver. Il est là pour te poser une seule question :</p>
+                    <p style="background:var(--red); color:#fff; font-weight:700; padding:18px 20px; margin-top:12px;">
+                        Est-ce qu'il n'est pas enfin temps que tu arrêtes de tourner en rond ?
+                    </p>
+                    <div class="p1-warn" style="background:rgba(255,255,255,0.025); border:1px solid rgba(255,255,255,0.06); border-top:2px solid var(--red); padding:18px 20px; margin:28px 0; font-size:0.92rem; line-height:1.7; color:var(--white-dim); font-style:italic;">
+                        "Si tu n'es pas prêt à entendre la vérité crue — arrête ta lecture ici. Je ne cherche pas la foule. Je cherche une minorité de personnes talentueuses et fatiguées d'un manque de résultats malgré leur potentiel élevé."
+                    </div>
+                    <div class="impact-block">
+                        <p>Le problème n'est pas ce que tu fais. C'est la manière dont tu fonctionnes. Tu ne manques pas de discipline. <strong>Tu manques d'un système pour la maintenir.</strong></p>
+                    </div>
+                    <div class="page-nav">
+                        <div></div><div class="dots" id="d1"></div>
+                        <button class="btn-red" onclick="goTo(2)">Continuer →</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="p2" class="page bg-deeper">
+  <div class="noise"></div>
+  <div class="grid-lines"></div>
+  <div class="glow-red" style="width:400px;height:400px;bottom:-100px;right:-100px;opacity:0.6;"></div>
+
+  <div class="inner">
+    <div class="eyebrow">Le Diagnostic</div>
+    <h2 class="h2">Te reconnais-tu dans<br><span class="accent"><strong>l'une de ces réalités ?</strong></span></h2>
+
+    <div class="slide-image-wrap">
+      <img src="slides2.jpeg" alt="Diagnostic Lionne GPS">
+    </div>
+
+    <div class="rule"></div>
+
+    <p class="body-lg" style="margin-bottom:8px;">Tu n'es pas seul(e). Chacun d'entre nous est passé par là au moins une fois. Mais la question est : combien de temps encore vas-tu rester dans ce cycle ?</p>
+
+    <div class="pain-cards">
+      <div class="pain-card">
+        <div class="q">"</div>
+        <div class="text">Je suis perdu(e), je ne sais plus quoi faire — j'avance sans direction claire et j'improvise au quotidien.</div>
+      </div>
+      <div class="pain-card">
+        <div class="q">"</div>
+        <div class="text">Peu importe mes efforts, j'ai l'impression de stagner. Où est le problème ?</div>
+      </div>
+      <div class="pain-card">
+        <div class="q">"</div>
+        <div class="text">Je travaille énormément — mais mes résultats stagnent. Je vois d'autres progresser et je ne comprends pas ce qui cloche.</div>
+      </div>
+      <div class="pain-card">
+        <div class="q">"</div>
+        <div class="text">Je commence fort, mais je lâche toujours en cours de route. Comment tenir ?</div>
+      </div>
+      <div class="pain-card">
+        <div class="q">"</div>
+        <div class="text">Mon business repose uniquement sur mes efforts du moment. Comment le rendre solide ?</div>
+      </div>
+      <div class="pain-card">
+        <div class="q">"</div>
+        <div class="text">Je veux plus d'argent, j'applique les stratégies, mais ça ne marche pas chez moi. Pourquoi ?</div>
+      </div>
+    </div>
+
+    <div class="truth-box">
+      <p>La motivation ne tient pas.</p>
+      <p>La discipline seule ne suffit pas.</p>
+      <p>Sans système structuré, tu retomberas toujours au même endroit.</p>
+    </div>
+
+    <div class="quote-block">
+      <p>"Le leadership se développe tous les jours… PAS EN UN JOUR. C'est la Loi du processus."</p>
+      <cite>— John Maxwell</cite>
+    </div>
+
+    <p class="body-md">Depuis ta naissance, tu as été guidé. Entouré. Accompagné. Et maintenant que tu as 85% à 100% de responsabilités, <strong>qui veille à ce que tu exécutes ta discipline ?</strong> Personne. Et c'est exactement là que tout se bloque.</p>
+
+    <div class="page-nav">
+      <button class="back-btn" onclick="goTo(1)">← Retour</button>
+      <div class="dots" id="d2"></div>
+      <button class="btn btn-red" onclick="goTo(3)">Continuer →</button>
+    </div>
+  </div>
+</section>
+<section id="p3" class="page bg-deeper">
+  <div class="noise"></div>
+  <div class="grid-lines"></div>
+
+  <div class="inner">
+    <div class="eyebrow">Terrain &amp; Résultats</div>
+    <h2 class="h2">Ce n'est pas de la <span class="accent">théorie.</span></h2>
+    <div class="rule"></div>
+
+    <div class="story-block">
+      <div class="story-tag">Témoignage — Accompagnement individuel</div>
+      <div class="story-title" style="font-family:'Cormorant Garamond', serif; font-size:1.5rem; font-style:italic; color:var(--red); margin-bottom:18px; line-height:1.3;">
+        "Il était à deux doigts d'abandonner…"
+      </div>
+      <p class="story-p" style="font-size:0.97rem; line-height:1.9; color:var(--white-dim); margin-bottom:14px;">
+        Un entrepreneur. Trois ans d'efforts. Zéro résultat stable. Il avait essayé les formations, les mentors, les stratégies. Rien ne tenait. Il dormait mal, doutait de tout, envisageait de tout arrêter. La dépression commençait à s'installer silencieusement.
+      </p>
+      <p class="story-p" style="font-size:0.97rem; line-height:1.9; color:var(--white-dim); margin-bottom:14px;">
+        Ce n'était pas un manque de volonté. Ce n'était pas un manque d'intelligence. C'était un fonctionnement désorganisé, sans cadre, sans direction claire — construit sur une base qu'il ne maîtrisait pas : lui-même.
+      </p>
+    </div>
+
+    <div class="pain-card" style="border-left: 3px solid var(--gold); background: rgba(201, 151, 31, 0.03); margin: 24px 0; padding: 22px;">
+  <div style="font-family: var(--font-cond); font-weight: 800; color: var(--gold); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px;">
+    🎯VOICI UNE EXPÉRIENCE DÉTOX SUR 9 JOURS — GROUPE
+  </div>
+  <div class="q" style="color: var(--gold); opacity: 0.3;">"</div>
+  <div class="text">
+    <p style="font-family: var(--font-serif); font-style: italic; font-size: 1.25rem; line-height: 1.6; color: var(--white); margin-bottom: 10px;">
+      Ceux qui ont suivi le système ont obtenu des résultats. <span style="color: var(--red); font-weight: 600;">Les autres ont abandonné.</span>
+    </p>
+    <p style="font-size: 0.9rem; color: var(--white-dim); line-height: 1.6;">
+      Ce n'est pas un problème de connaissance. La plupart des gens savent déjà quoi faire. C'est un problème de structure et de discipline objective. Sans organisation — aucun résultat durable, peu importe ce qu'on sait.
+    </p>
+  </div>
+</div>
+
+    <div class="reframe-box" style="background:var(--red); padding:26px 24px; margin:32px 0;">
+      <p style="font-family:'Cormorant Garamond', serif; font-size:1.3rem; font-weight:600; line-height:1.6; color:white;">
+        Tu n'es pas incapable.<br>Tu es désorganisé(e), sans cadre et sans direction claire.<br>Ce n'est pas la même chose.
+      </p>
+    </div>
+
+    <div class="story-tag" style="margin-top:32px;">Témoignages — Captures WhatsApp</div>
+    <div style="display:flex; flex-direction:column; gap:14px; margin:16px 0 32px;">
+      <img src="capture1.jpeg" alt="WhatsApp 1" style="width:100%; max-width:480px; border:1px solid rgba(255,255,255,0.08); display:block;">
+      <img src="captures2.jpeg" alt="WhatsApp 2" style="width:100%; max-width:480px; border:1px solid rgba(255,255,255,0.08); display:block;">
+    </div>
+
+    <div class="story-tag">Témoignage vidéo</div>
+    <div style="margin:16px 0 32px;">
+      <video controls style="width:100%; max-width:480px; display:block; margin-top:16px; border:1px solid rgba(255,255,255,0.08);">
+        <source src="WhatsApp Video 2026-05-10 at 23.02.01.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="result-proof" style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:28px 0;">
+      <div class="proof-card" style="padding:18px 16px; background:rgba(255,255,255,0.025); border:1px solid rgba(255,255,255,0.06); border-top:2px solid var(--red);">
+        <div class="p-tag" style="font-family:'Barlow Condensed', sans-serif; font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--red); margin-bottom:8px;">Résultat observé</div>
+        <p style="font-size:0.88rem; line-height:1.65; color:var(--white-dim);">Confusion → clarté opérationnelle en moins de 3 semaines d'accompagnement structuré</p>
+      </div>
+      <div class="proof-card" style="padding:18px 16px; background:rgba(255,255,255,0.025); border:1px solid rgba(255,255,255,0.06); border-top:2px solid var(--red);">
+        <div class="p-tag" style="font-family:'Barlow Condensed', sans-serif; font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--red); margin-bottom:8px;">Résultat observé</div>
+        <p style="font-size:0.88rem; line-height:1.65; color:var(--white-dim);">Discipline émotionnelle → cadre stable qui tient même dans les moments difficiles</p>
+      </div>
+    </div>
+
+    <div class="impact-block">
+      <p>"Je ne donne pas des conseils.<br>Je restructure ton fonctionnement."</p>
+    </div>
+<div style="margin: 28px 0; text-align: center;">
+  <div style="margin: 35px 0; text-align: center; padding: 0 10px;">
+  <div style="margin: 35px 0; text-align: center; padding: 0 10px;">
+  <button onclick="goTo(10)" class="btn btn-whatsapp-pulse" style="background-color: #25D366; color: white; display: inline-flex; align-items: center; justify-content: center; gap: 12px; text-transform: uppercase; font-weight: 800; font-family: var(--font-cond); font-size: 1.25rem; padding: 20px 32px; border-radius: 4px; width: 100%; max-width: 420px; border: none; cursor: pointer;">
+    <span>Profiter de l'accompagnement</span>
+  </button>
+</div>
+</div>
+</div>
+    <div class="page-nav">
+      <button class="back-btn" onclick="goTo(2)">← Retour</button>
+      <div class="dots" id="d3"></div>
+      <button class="btn btn-red" onclick="goTo(4)">Continuer →</button>
+    </div>
+    
+  </div>
+</section>
+<section id="p4" class="page bg-dark">
+  <div class="noise"></div>
+  <div class="glow-blue" style="width:600px;height:600px;top:50%;left:50%;transform:translate(-50%,-50%);"></div>
+  <div class="grid-lines"></div>
+
+  <div class="inner">
+    <div class="eyebrow">La Racine du Problème</div>
+    <h2 class="h2">Le frein n'est pas<br><span class="accent">où tu le crois.</span></h2>
+
+    <div class="slide-image-wrap">
+      <img src="slides7.jpeg" alt="Alignement Intérieur">
+    </div>
+
+    <div class="rule"></div>
+
+    <div class="question-big" style="font-family:'Cormorant Garamond', serif; font-size:clamp(1.8rem,5vw,3rem); font-style:italic; line-height:1.25; color:var(--white); margin:28px 0;">
+      Tu veux réussir…<br>
+      sans te comprendre toi-même ?<br>
+      <span style="color:var(--red);">C'est exactement ce qui te ralentit.</span>
+    </div>
+
+    <p class="body-lg">La majorité des entrepreneurs cherchent des stratégies, des outils, des formations. Ils croient que le problème est externe. Mais si tu fonctionnes de façon désorganisée, sans cadre intérieur solide — <strong>aucune stratégie ne tiendra jamais.</strong></p>
+
+    <div class="inner-reveal" style="border:1px solid rgba(200,0,26,0.25); padding:28px 24px; margin:28px 0; position:relative;">
+      <p style="font-size:0.97rem; line-height:1.85; color:var(--white-dim); margin-bottom:14px;">Tu ajoutes des outils. Tu testes des stratégies. Tu travailles encore plus. Et malgré tout, quelque chose bloque toujours.</p>
+      <p style="font-size:0.97rem; line-height:1.85; color:var(--white-dim); margin-bottom:14px;">Parce que le problème n'est pas seulement externe. Il est dans ton propre fonctionnement habituel — dans ton manque de cadre, dans une discipline qui dépend de tes émotions, dans l'absence de structure stable dans ton quotidien.</p>
+      <p style="font-size:0.97rem; line-height:1.85; color:var(--white-dim);">Et ça, on n'aime généralement pas l'accepter.</p>
+    </div>
+
+    <p class="body-md" style="margin-bottom:20px;">Ce que tu ignores de toi-même dirige <em>silencieusement</em> :</p>
+
+    <div class="trigger-list">
+      <div class="trigger-item" style="display:flex; gap:14px; align-items:flex-start; padding:12px 0; border-bottom:1px solid rgba(255,255,255,0.05);">
+        <div class="arrow-r" style="color:var(--red);">→</div>
+        <p style="font-size:0.93rem; line-height:1.7; color:var(--white-dim);">Tous tes choix et décisions, même les plus anodins</p>
+      </div>
+      <div class="trigger-item" style="display:flex; gap:14px; align-items:flex-start; padding:12px 0; border-bottom:1px solid rgba(255,255,255,0.05);">
+        <div class="arrow-r" style="color:var(--red);">→</div>
+        <p style="font-size:0.93rem; line-height:1.7; color:var(--white-dim);">Ton comportement face à la pression et aux imprévus</p>
+      </div>
+      <div class="trigger-item" style="display:flex; gap:14px; align-items:flex-start; padding:12px 0; border-bottom:1px solid rgba(255,255,255,0.05);">
+        <div class="arrow-r" style="color:var(--red);">→</div>
+        <p style="font-size:0.93rem; line-height:1.7; color:var(--white-dim);">Tes cycles d'énergie, tes schémas répétitifs et tes blocages récurrents</p>
+      </div>
+      <div class="trigger-item" style="display:flex; gap:14px; align-items:flex-start; padding:12px 0; border-bottom:1px solid rgba(255,255,255,0.05);">
+        <div class="arrow-r" style="color:var(--red);">→</div>
+        <p style="font-size:0.93rem; line-height:1.7; color:var(--white-dim);">Ta discipline objective — et donc directement tes résultats</p>
+      </div>
+      <div class="trigger-item" style="display:flex; gap:14px; align-items:flex-start; padding:12px 0; border-bottom:1px solid rgba(255,255,255,0.05);">
+        <div class="arrow-r" style="color:var(--red);">→</div>
+        <p style="font-size:0.93rem; line-height:1.7; color:var(--white-dim);">Ta capacité à avancer <strong>même quand tu n'as pas envie, même dans l'inconfort</strong></p>
+      </div>
+    </div>
+
+    <div class="impact-block">
+      <p>Ta dimension intérieure — tu peux l'ignorer. Mais elle, elle ne t'ignore pas. Elle influence tout, en permanence.</p>
+    </div>
+
+    <div class="sig">"Entre ton Génie et ton Pouvoir, ACTIVE LE SAVOIR ✍️"</div>
+
+    <div class="page-nav">
+      <button class="back-btn" onclick="goTo(3)">← Retour</button>
+      <div class="dots" id="d4"></div>
+      <button class="btn btn-red" onclick="goTo(5)">Continuer →</button>
+    </div>
+  </div>
+</section>
+<section id="p5" class="page bg-deeper">
+  <div class="noise"></div>
+  <div class="grid-lines"></div>
+
+  <div class="inner">
+    <div class="eyebrow">La Méthode</div>
+    <h2 class="h2">Le <span class="accent">Protocole GPS</span></h2>
+    
+    <div class="slide-image-wrap">
+      <img src="slidess4.jpg" alt="Méthode GPS">
+    </div>
+
+    <p class="body-lg" style="margin-top:12px; margin-bottom:4px;">Un système en 3 piliers pour restructurer ton fonctionnement de l'intérieur — et produire des résultats concrets dans ta vie et ton business.</p>
+
+    <div class="rule"></div>
+
+    <div class="gps-cards">
+      <div class="gps-card" style="display:flex; gap:22px; padding:26px 22px; margin-bottom:14px; background:rgba(255,255,255,0.02); border-left:4px solid var(--red);">
+        <div class="gps-letter" style="font-family:'Cormorant Garamond', serif; font-size:4rem; font-weight:700; color:var(--red); min-width:56px;">G</div>
+        <div>
+          <h4 style="font-family:'Barlow Condensed', sans-serif; font-size:1.2rem; letter-spacing:2px; text-transform:uppercase; color:var(--white); margin-bottom:8px;">Génie — Qui tu es réellement</h4>
+          <p style="font-size:0.93rem; line-height:1.75; color:var(--white-dim);">Tes talents naturels, ton identité profonde, tes vrais déclencheurs. On clarifie et on active ce qui est déjà là. La plupart des gens ne savent pas réellement comment ils sont construits — et c'est précisément ce qui les freine.</p>
+        </div>
+      </div>
+      <div class="gps-card" style="display:flex; gap:22px; padding:26px 22px; margin-bottom:14px; background:rgba(255,255,255,0.02); border-left:4px solid var(--red);">
+        <div class="gps-letter" style="font-family:'Cormorant Garamond', serif; font-size:4rem; font-weight:700; color:var(--red); min-width:56px;">P</div>
+        <div>
+          <h4 style="font-family:'Barlow Condensed', sans-serif; font-size:1.2rem; letter-spacing:2px; text-transform:uppercase; color:var(--white); margin-bottom:8px;">Pouvoir — Ta capacité d'action</h4>
+          <p style="font-size:0.93rem; line-height:1.75; color:var(--white-dim);">Ta force de frappe, ta discipline structurée, ton énergie dirigée vers ce qui compte vraiment. Pas une motivation qui s'épuise au moindre obstacle — un système qui tient même quand tu n'as pas envie, même quand c'est inconfortable.</p>
+        </div>
+      </div>
+      <div class="gps-card" style="display:flex; gap:22px; padding:26px 22px; margin-bottom:14px; background:rgba(255,255,255,0.02); border-left:4px solid var(--red);">
+        <div class="gps-letter" style="font-family:'Cormorant Garamond', serif; font-size:4rem; font-weight:700; color:var(--red); min-width:56px;">S</div>
+        <div>
+          <h4 style="font-family:'Barlow Condensed', sans-serif; font-size:1.2rem; letter-spacing:2px; text-transform:uppercase; color:var(--white); margin-bottom:8px;">Savoir — Le système qui structure tes résultats</h4>
+          <p style="font-size:0.93rem; line-height:1.75; color:var(--white-dim);">Un cadre précis pour passer de la confusion à l'exécution claire et cohérente. Pas de la théorie — un fonctionnement ancré, reproductible, et qui produit des résultats mesurables dans le temps.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="maxwell-box" style="background:rgba(255,255,255,0.025); border:1px solid rgba(255,255,255,0.06); padding:24px 22px; margin:28px 0;">
+      <div class="maxwell-q" style="font-family:'Cormorant Garamond', serif; font-size:1.1rem; font-style:italic; color:var(--gold); line-height:1.6; margin-bottom:14px;">"Il faut un leader pour élever un leader." — John Maxwell, Loi de la Reproduction</div>
+      <div style="margin: 24px 0; text-align: center;">
+  <img src="sildes3.jpeg" alt="Protocole GPS" style="width: 100%; max-width: 400px; height: auto; border: 1px solid var(--red); box-shadow: 0 4px 20px rgba(200, 0, 26, 0.25); border-radius: 4px;">
+</div>
+      <p style="font-size:0.9rem; line-height:1.75; color:var(--white-dim);">Plus de 80% des leaders performants ont été encadrés, suivis, corrigés. La discipline ne tient pas par volonté seule. Elle tient par la structure + la responsabilité + l'environnement.</p>
+      <p style="font-size:0.9rem; line-height:1.75; color:var(--white-dim); margin-top:10px;">C'est exactement ce que le Protocole GPS installe en toi — pas des conseils en surface, mais une restructuration en profondeur.</p>
+    </div>
+<div style="margin: 35px 0; text-align: center; padding: 0 10px;">
+  <button onclick="goTo(10)" class="btn btn-whatsapp-pulse" style="background-color: #25D366; color: white; display: inline-flex; align-items: center; justify-content: center; gap: 12px; text-transform: uppercase; font-weight: 800; font-family: var(--font-cond); font-size: 1.25rem; padding: 20px 32px; border-radius: 4px; width: 100%; max-width: 420px; border: none; cursor: pointer;">
+    <span>Prends ton protocole immédiatement.</span>
+  </button>
+</div>
+    <div class="rule-full"></div>
+    <div class="sig">"Entre ton Génie et ton Pouvoir, ACTIVE LE SAVOIR ✍️"</div>
+
+    <div class="page-nav">
+      <button class="back-btn" onclick="goTo(4)">← Retour</button>
+      <div class="dots" id="d5"></div>
+      <button class="btn btn-red" onclick="goTo(6)">Continuer →</button>
+    </div>
+  </div>
+</section>
+
+<section id="p6" class="page bg-dark">
+  <div class="noise"></div>
+  <div class="glow-red" style="width:400px;height:400px;bottom:0;left:-100px;opacity:0.5;"></div>
+  <div class="grid-lines"></div>
+
+  <div class="inner">
+    <div class="eyebrow">Qui suis-je ?</div>
+    <h2 class="h2">Je suis <span class="accent">Korina KAJ.</span><br>Ta Lionne GPS.</h2>
+
+    <div class="slide-image-wrap">
+      <img src="slides5.jpeg" alt="Bio Korina KAJ">
+    </div>
+
+    <div class="profile-header" style="display:flex; align-items:flex-start; gap:24px; padding:28px 0; margin:20px 0; border-top:1px solid rgba(255,255,255,0.07); border-bottom:1px solid rgba(255,255,255,0.07);">
+      <div class="profile-avatar" style="width:80px; height:80px; border-radius:50%; background:linear-gradient(135deg, var(--blue-light), var(--red-dark)); border:2px solid rgba(200,0,26,0.4); display:flex; align-items:center; justify-content:center; font-family:'Cormorant Garamond', serif; font-size:2rem; font-weight:700; color:var(--white); flex-shrink:0;">K</div>
+      <div class="profile-info">
+        <h3 style="font-family:'Cormorant Garamond', serif; font-size:1.6rem; font-weight:700; line-height:1.2; margin-bottom:4px;">Coach Korina KAJ</h3>
+        <div class="role" style="font-family:'Barlow Condensed', sans-serif; font-size:11px; letter-spacing:3px; text-transform:uppercase; color:var(--red); margin-bottom:8px;">La Lionne GPS — Coach &amp; Stratège</div>
+        <div class="tagline" style="font-size:0.88rem; line-height:1.6; color:var(--white-faint); font-style:italic;">"J'installe en toi une discipline intérieure stable qui permet au leader que tu es de produire des résultats concrets."</div>
+      </div>
+    </div>
+
+    <p class="body-lg">Je ne donne pas des conseils. Je ne fais pas de motivation à court terme. Mon travail, c'est de <strong>restructurer ton fonctionnement</strong> — en profondeur, durablement.</p>
+
+    <div class="rule"></div>
+
+    <div class="credential-list">
+      <div class="credential" style="display:flex; gap:14px; align-items:flex-start; padding:14px 0; border-bottom:1px solid rgba(255,255,255,0.05);">
+        <div class="ic" style="color:var(--gold); min-width:20px;">◆</div>
+        <p style="font-size:0.93rem; line-height:1.7; color:var(--white-dim);"><strong>Spécialiste en discipline structurée et leadership intérieur</strong> — j'accompagne les entrepreneurs qui savent beaucoup mais n'arrivent pas à maintenir l'exécution dans le temps.</p>
+      </div>
+      <div class="credential" style="display:flex; gap:14px; align-items:flex-start; padding:14px 0; border-bottom:1px solid rgba(255,255,255,0.05);">
+        <div class="ic" style="color:var(--gold); min-width:20px;">◆</div>
+        <p style="font-size:0.93rem; line-height:1.7; color:var(--white-dim);"><strong>Experte en connaissance de soi appliquée au business</strong> — je travaille sur les déclencheurs émotionnels, les schémas répétitifs et les blocages inconscients qui freinent tes résultats.</p>
+      </div>
+      <div class="credential" style="display:flex; gap:14px; align-items:flex-start; padding:14px 0; border-bottom:1px solid rgba(255,255,255,0.05);">
+        <div class="ic" style="color:var(--gold); min-width:20px;">◆</div>
+        <p style="font-size:0.93rem; line-height:1.7; color:var(--white-dim);"><strong>Créatrice du Protocole GPS</strong> — une méthode en 3 piliers (Génie, Pouvoir, Savoir) pour passer de la dispersion à l'exécution structurée et aux résultats mesurables.</p>
+      </div>
+      <div class="credential" style="display:flex; gap:14px; align-items:flex-start; padding:14px 0; border-bottom:1px solid rgba(255,255,255,0.05);">
+        <div class="ic" style="color:var(--gold); min-width:20px;">◆</div>
+        <p style="font-size:0.93rem; line-height:1.7; color:var(--white-dim);"><strong>Praticienne des lois du leadership.</strong> J'applique des principes éprouvés qui fonctionnent chez moi et mes apprenants. <strong>Pas de tendances passagères.</strong></p>
+      </div>
+    </div>
+
+    <div class="mission-box" style="background:rgba(201,151,31,0.07); border:1px solid rgba(201,151,31,0.2); padding:24px 22px; margin:28px 0;">
+      <p style="font-family:'Cormorant Garamond', serif; font-size:1.15rem; font-style:italic; line-height:1.7; color:var(--white);">"Mon objectif est d'installer en toi une discipline intérieure stable qui permet au leader que tu es de produire des résultats concrets dans ta vie et dans ton business. Pas demain. Maintenant."</p>
+    </div>
+
+    <div class="impact-block">
+      <p>Je ne suis pas là pour te dire que tu t'autosabottes, ou que tu es incapable. Je suis là parce que tu n'as simplement pas encore le <strong>système solide</strong> qui te maintient dans l'action.</p>
+      <p style="margin-top:10px;">Et ça, c'est exactement ce que je construis avec toi.</p>
+    </div>
+
+    <div class="rule-full"></div>
+    <div class="sig">"Entre ton Génie et ton Pouvoir, ACTIVE LE SAVOIR ✍️"</div>
+
+    <div class="page-nav">
+      <button class="back-btn" onclick="goTo(5)">← Retour</button>
+      <div class="dots" id="d6"></div>
+      <button class="btn btn-red" onclick="goTo(7)">Continuer →</button>
+    </div>
+  </div>
+</section>
+<section id="p7" class="page bg-dark">
+  <div class="noise"></div>
+  <div class="grid-lines"></div>
+  <div class="glow-red" style="width:400px;height:400px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.4;"></div>
+
+  <div class="inner">
+    <div class="eyebrow">Sélection</div>
+
+    <div class="filter-statement" style="font-family:'Cormorant Garamond', serif; font-size:clamp(1.8rem,5.5vw,3.2rem); font-weight:700; line-height:1.15; text-align:center; margin:28px 0;">
+      Ce programme<br>
+      <em style="font-style:normal; color:var(--red); display:block;">n'est pas pour tout le monde.</em>
+    </div>
+
+    <div class="slide-image-wrap">
+      <img src="Slidess7corriger.jpeg" alt="Sélection Lionne GPS">
+    </div>
+
+    <p class="body-lg" style="text-align:center; margin-bottom:28px;">Je ne cherche pas à travailler avec le plus grand nombre. Je cherche les profils qui sont réellement prêts.</p>
+
+    <div class="filter-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:32px 0;">
+      <div class="filter-col no" style="padding:24px 20px; border:1px solid rgba(200,0,26,0.25); background:rgba(200,0,26,0.03);">
+        <h5 style="font-family:'Barlow Condensed', sans-serif; font-size:10px; letter-spacing:4px; text-transform:uppercase; margin-bottom:18px; color:var(--red);">Ce n'est pas pour toi si…</h5>
+        <ul style="list-style:none;">
+          <li style="font-size:0.88rem; line-height:1.6; color:var(--white-dim); padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.04); display:flex; align-items:flex-start; gap:10px;">Tu cherches une solution rapide, facile, sans effort réel</li>
+          <li style="font-size:0.88rem; line-height:1.6; color:var(--white-dim); padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.04); display:flex; align-items:flex-start; gap:10px;">Tu n'es pas prêt(e) à te remettre en question</li>
+          <li style="font-size:0.88rem; line-height:1.6; color:var(--white-dim); padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.04); display:flex; align-items:flex-start; gap:10px;">Tu veux juste des conseils en surface</li>
+          <li style="font-size:0.88rem; line-height:1.6; color:var(--white-dim); padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.04); display:flex; align-items:flex-start; gap:10px;">L'investissement financier dans ton évolution te bloque</li>
+          <li style="font-size:0.88rem; line-height:1.6; color:var(--white-dim); padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.04); display:flex; align-items:flex-start; gap:10px;">Tu n'es pas engagé(e) dans ta transformation sur le long terme</li>
+        </ul>
+      </div>
+      <div class="filter-col yes" style="padding:24px 20px; border:1px solid rgba(26,52,114,0.5); background:rgba(26,52,114,0.07);">
+        <h5 style="font-family:'Barlow Condensed', sans-serif; font-size:10px; letter-spacing:4px; text-transform:uppercase; margin-bottom:18px; color:#4A7ADB;">C'est exactement pour toi si…</h5>
+        <ul style="list-style:none;">
+          <li style="font-size:0.88rem; line-height:1.6; color:var(--white-dim); padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.04); display:flex; align-items:flex-start; gap:10px;">Tu es un leader qui prend ses responsabilités</li>
+          <li style="font-size:0.88rem; line-height:1.6; color:var(--white-dim); padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.04); display:flex; align-items:flex-start; gap:10px;">Tu es fatigué(e) de stagner malgré ton potentiel réel</li>
+          <li style="font-size:0.88rem; line-height:1.6; color:var(--white-dim); padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.04); display:flex; align-items:flex-start; gap:10px;">Tu veux un système solide, pas des palliatifs</li>
+          <li style="font-size:0.88rem; line-height:1.6; color:var(--white-dim); padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.04); display:flex; align-items:flex-start; gap:10px;">Tu es prêt(e) à investir sérieusement dans ton évolution</li>
+          <li style="font-size:0.88rem; line-height:1.6; color:var(--white-dim); padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.04); display:flex; align-items:flex-start; gap:10px;">Tu es décidé(e) à changer ton fonctionnement en profondeur</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="filter-invite" style="font-family:'Cormorant Garamond', serif; font-size:1.1rem; font-style:italic; text-align:center; color:var(--white-dim); margin:20px 0; line-height:1.7;">
+      Si tu te reconnais dans la colonne de droite —<br>
+      tu es exactement le profil que j'accompagne.
+    </div>
+
+    <div class="alert-box" style="background:var(--red); padding:22px 24px; margin:28px 0;">
+      <p style="font-size:1.05rem; line-height:1.75; font-weight:600; color:white;">Les places sont limitées volontairement. Je ne travaille qu'avec un nombre restreint de personnes à la fois pour garantir la qualité et l'impact de l'accompagnement.</p>
+    </div>
+
+    <div class="page-nav">
+      <button class="back-btn" onclick="goTo(6)">← Retour</button>
+      <div class="dots" id="d7"></div>
+      <button class="btn btn-red" onclick="goTo(8)">Continuer →</button>
+    </div>
+  </div>
+</section>
+<section id="p8" class="page bg-deeper">
+  <div class="noise"></div>
+  <div class="grid-lines"></div>
+
+  <div class="inner">
+    <div class="eyebrow">L'Accompagnement</div>
+    
+    <div class="p1-badge" style="display:inline-block; padding:6px 12px; background:rgba(200,0,26,0.15); border:1px solid var(--red); color:var(--red); font-family:'Barlow Condensed', sans-serif; font-size:10px; letter-spacing:2px; text-transform:uppercase; margin-bottom:16px;">
+      Protocole Exclusif — Places Limitées
+    </div>
+
+    <div class="offer-name" style="font-family:'Barlow Condensed', sans-serif; font-size:clamp(2.5rem,8vw,4.5rem); font-weight:900; line-height:0.9; color:var(--white); margin-bottom:8px;">
+      PROTOCOLE <span class="accent">GPS</span>
+    </div>
+    
+    <div class="offer-sub" style="font-family:'Cormorant Garamond', serif; font-size:1.2rem; font-style:italic; color:var(--white-dim); margin-bottom:24px;">
+      Accompagnement Premium — Restructuration &amp; Résultats
+    </div>
+
+    <div class="slide-image-wrap">
+      <img src="slides8.jpeg" alt="L'Offre GPS">
+    </div>
+
+    <p class="body-lg" style="margin-top:24px;">Ce n'est pas une formation. Ce n'est pas un coaching classique. C'est une restructuration complète de ton fonctionnement — pour que tes résultats suivent enfin ton potentiel.</p>
+
+    <div class="rule"></div>
+
+    <div class="deliverables" style="margin:32px 0;">
+  <div class="deliver-item" style="display:flex; gap:20px; margin-bottom:24px; align-items:flex-start;">
+    <div class="n" style="font-family:'Barlow Condensed', sans-serif; font-size:1.5rem; font-weight:700; color:var(--red); opacity:0.5; line-height:1;">01</div>
+    <div class="t" style="font-size:0.95rem; line-height:1.7; color:var(--white-dim);">
+      <strong style="display:block; color:var(--white); font-size:1.05rem; margin-bottom:4px;">Restructuration personnelle — Identité &amp; Confiance</strong>
+      Tu redécouvres ton moi intérieur, tu comprends ton cheminement, tu prends des décisions plus claires. Ta confiance est reconstruite sur une base solide, pas sur la performance du moment.
+    </div>
+  </div>
+  <div class="deliver-item" style="display:flex; gap:20px; margin-bottom:24px; align-items:flex-start;">
+    <div class="n" style="font-family:'Barlow Condensed', sans-serif; font-size:1.5rem; font-weight:700; color:var(--red); opacity:0.5; line-height:1;">02</div>
+    <div class="t" style="font-size:0.95rem; line-height:1.7; color:var(--white-dim);">
+      <strong style="display:block; color:var(--white); font-size:1.05rem; margin-bottom:4px;">Discipline structurée — Le cadre qui tient</strong>
+      Un système de fonctionnement au quotidien qui résiste à la fatigue, au doute, aux imprévus. Pas de la motivation — une architecture de l'action.
+    </div>
+  </div>
+  <div class="deliver-item" style="display:flex; gap:20px; margin-bottom:24px; align-items:flex-start;">
+    <div class="n" style="font-family:'Barlow Condensed', sans-serif; font-size:1.5rem; font-weight:700; color:var(--red); opacity:0.5; line-height:1;">03</div>
+    <div class="t" style="font-size:0.95rem; line-height:1.7; color:var(--white-dim);">
+      <strong style="display:block; color:var(--white); font-size:1.05rem; margin-bottom:4px;">Clarté business — Vision &amp; Direction</strong>
+      Tu obtiens une vision nette, des priorités définies, une direction claire. Tu arrêtes d'improviser,tu commences à piloter.
+    </div>
+  </div>
+  <div class="deliver-item" style="display:flex; gap:20px; margin-bottom:24px; align-items:flex-start;">
+    <div class="n" style="font-family:'Barlow Condensed', sans-serif; font-size:1.5rem; font-weight:700; color:var(--red); opacity:0.5; line-height:1;">04</div>
+    <div class="t" style="font-size:0.95rem; line-height:1.7; color:var(--white-dim);">
+      <strong style="display:block; color:var(--white); font-size:1.05rem; margin-bottom:4px;">Passage à l'action — De la réflexion à l'exécution</strong>
+      Tu appliques une méthode qui fonctionne, tu gardes la cohérence, tu maintiens la constance, tu exécutes même quand tu n'as pas envie, même quand c'est inconfortable. Même quand tout semble flou.
+    </div>
+  </div>
+  <div class="deliver-item" style="display:flex; gap:20px; margin-bottom:24px; align-items:flex-start;">
+    <div class="n" style="font-family:'Barlow Condensed', sans-serif; font-size:1.5rem; font-weight:700; color:var(--red); opacity:0.5; line-height:1;">05</div>
+    <div class="t" style="font-size:0.95rem; line-height:1.7; color:var(--white-dim);">
+      <strong style="display:block; color:var(--white); font-size:1.05rem; margin-bottom:4px;">Suivi stratégique — Accompagnement de proximité</strong>
+      Je veille. Je corrige. Je maintiens le cadre. Parce qu'un leader a besoin d'un cadre pour impacter son monde et bâtir son empire.
+    </div>
+  </div>
+</div>
+
+    <div class="rule-full"></div>
+
+    <p class="body-md" style="margin:28px 0 20px; font-weight:500; text-transform:uppercase; letter-spacing:1px; color:var(--white);">Ce que tu vivras concrètement :</p>
+    
+    <div class="transformation-grid" style="display:grid; grid-template-columns:repeat(2, 1fr); gap:12px; margin-bottom:32px;">
+      <div class="tf-card" style="background:rgba(255,255,255,0.03); padding:16px; border:1px solid rgba(255,255,255,0.05); text-align:center;">
+        <div class="before" style="font-size:0.8rem; color:var(--white-faint); text-decoration:line-through; margin-bottom:4px;">Confusion</div>
+        <div class="sep" style="color:var(--red); font-weight:700; margin-bottom:4px;">↓</div>
+        <div class="after" style="font-weight:700; color:var(--white);">Clarté</div>
+      </div>
+      <div class="tf-card" style="background:rgba(255,255,255,0.03); padding:16px; border:1px solid rgba(255,255,255,0.05); text-align:center;">
+        <div class="before" style="font-size:0.8rem; color:var(--white-faint); text-decoration:line-through; margin-bottom:4px;">Instabilité</div>
+        <div class="sep" style="color:var(--red); font-weight:700; margin-bottom:4px;">↓</div>
+        <div class="after" style="font-weight:700; color:var(--white);">Structure</div>
+      </div>
+      <div class="tf-card" style="background:rgba(255,255,255,0.03); padding:16px; border:1px solid rgba(255,255,255,0.05); text-align:center;">
+        <div class="before" style="font-size:0.8rem; color:var(--white-faint); text-decoration:line-through; margin-bottom:4px;">Stagnation</div>
+        <div class="sep" style="color:var(--red); font-weight:700; margin-bottom:4px;">↓</div>
+        <div class="after" style="font-weight:700; color:var(--white);">Progression</div>
+      </div>
+      <div class="tf-card" style="background:rgba(200,0,26,0.1); padding:16px; border:1px solid var(--red); text-align:center;">
+        <div class="before" style="font-size:0.8rem; color:var(--white-faint); text-decoration:line-through; margin-bottom:4px;">Progression</div>
+        <div class="sep" style="color:var(--red); font-weight:700; margin-bottom:4px;">↓</div>
+        <div class="after" style="font-weight:900; color:var(--white); letter-spacing:1px;">RÉSULTATS</div>
+      </div>
+    </div>
+
+    <div class="rule-full"></div>
+    <div class="sig">"Entre ton Génie et ton Pouvoir, ACTIVE LE SAVOIR ✍️"</div>
+
+    <div class="page-nav">
+      <button class="back-btn" onclick="goTo(7)">← Retour</button>
+      <div class="dots" id="d8"></div>
+      <button class="btn btn-red" onclick="goTo(9)">Continuer →</button>
+    </div>
+  </div>
+</section>
+<section id="p9" class="page bg-dark" style="justify-content:center; align-items:center;">
+  <div class="noise"></div>
+  <div class="grid-lines"></div>
+  
+  <div class="cta-rings" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); pointer-events:none; z-index:0;">
+    <div class="cta-ring" style="position:absolute; border-radius:50%; border:1px solid rgba(200,0,26,0.07); top:50%; left:50%; transform:translate(-50%,-50%); width:300px; height:300px; animation:ripple 5s infinite;"></div>
+    <div class="cta-ring" style="position:absolute; border-radius:50%; border:1px solid rgba(200,0,26,0.07); top:50%; left:50%; transform:translate(-50%,-50%); width:550px; height:550px; animation:ripple 5s infinite; animation-delay:1.5s;"></div>
+    <div class="cta-ring" style="position:absolute; border-radius:50%; border:1px solid rgba(200,0,26,0.07); top:50%; left:50%; transform:translate(-50%,-50%); width:800px; height:800px; animation:ripple 5s infinite; animation-delay:3s;"></div>
+  </div>
+
+  <div class="inner-center">
+    <div class="eyebrow" style="justify-content:center;">
+      <span style="width:28px;height:1px;background:var(--red);"></span>La décision est maintenant
+    </div>
+
+    <div class="cta-main" style="font-family:'Cormorant Garamond', serif; font-size:clamp(2.4rem,8vw,5.5rem); font-weight:700; line-height:1.03; letter-spacing:-0.02em; margin:16px 0 24px;">
+      Prêt(e) à<br>
+      <span class="r" style="color:var(--red);">structurer</span><br>
+      ton <span class="g" style="color:var(--gold);">fonctionnement</span> ?
+    </div>
+
+    <div class="slide-image-wrap">
+      <img src="slides9.jpeg" alt="Prêt à agir">
+    </div>
+
+    <p class="cta-sub" style="font-size:1rem; line-height:1.8; color:var(--white-dim); max-width:520px; margin:0 auto 36px;">
+      Arrête de stagner. Arrête de tourner en rond malgré ton potentiel. Arrête d'attendre le bon moment — <strong>le bon moment, c'est maintenant.</strong>
+    </p>
+
+    <button class="cta-big" onclick="goTo(10)" style="display:inline-flex; align-items:center; gap:14px; padding:24px 56px; background:var(--red); color:var(--white); font-family:'Barlow Condensed', sans-serif; font-size:17px; font-weight:900; letter-spacing:4px; text-transform:uppercase; border:none; cursor:pointer; box-shadow:0 0 80px rgba(200,0,26,0.35); transition:all 0.35s ease;">
+      Je veux structurer mon fonctionnement
+      <span class="arrow-icon" style="font-size:1.1rem;">→</span>
+    </button>
+
+    <p style="margin-top:20px; font-size:0.82rem; color:var(--white-faint); font-style:italic;">
+      La prochaine étape : un formulaire de qualification rapide. Je lis chaque candidature personnellement.
+    </p>
+
+    <div class="rule-full"></div>
+    <div class="sig">"Entre ton Génie et ton Pouvoir, ACTIVE LE SAVOIR ✍️"</div>
+
+    <div class="page-nav" style="justify-content:space-between; width:100%; margin-top:40px;">
+      <button class="back-btn" onclick="goTo(8)">← Retour</button>
+      <div class="dots" id="d9"></div>
+      <button class="btn btn-red" onclick="goTo(10)">Continuer →</button>
+    </div>
+  </div>
+</section>
+<!-- ================================================
+     PAGE 10 — FORMULAIRE DE QUALIFICATION (MIS À JOUR)
+     ================================================ -->
+<section id="p10" class="page bg-deeper">
+  <div class="noise"></div>
+  <div class="grid-lines"></div>
+  <div class="slide-image-wrap">
+    <img src="slides10.jpg" alt="Qualification Korina KAJ">
+  </div>
+  <div class="inner">
+    <div class="eyebrow">Qualification — Étape 1 sur 2</div>
+    <h2 class="h2">Dis-moi<br><span class="accent">qui tu es.</span></h2>
+
+    <div class="form-intro-box" style="background:rgba(255,255,255,0.03); border-left:3px solid var(--red); padding:20px; margin:24px 0;">
+      <p style="font-size:0.92rem; line-height:1.6; color:var(--white-dim);">Ces questions me permettent de comprendre ta situation réelle avant notre échange. Réponds avec <strong>sincérité et précision</strong> — c'est de cela que dépend la qualité de ce que je pourrai construire avec toi. Je lis chaque réponse personnellement.</p>
+    </div>
+
+    <!-- ================================================
+     PAGE 10 — FORMULAIRE DE QUALIFICATION FORMSPREE
+     ================================================ -->
+<form id="qual-form" action="https://formspree.io/f/mgobqvev" method="POST" style="display:flex; flex-direction:column; gap:28px; margin-top:30px;">  
+  <!-- 01 — Prénom & Activité -->
+  <div class="fgroup">
+    <label style="display:block; font-family:'Barlow Condensed', sans-serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--red); margin-bottom:12px;">01 — Ton prénom &amp; activité actuelle <span style="color:var(--gold);">*</span></label>
+    <input type="text" id="f1" name="prenom_activite" placeholder="Ex : Marie — Coach nutritionniste, Jean — Consultant IT…" style="width:100%; padding:16px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:white; font-family:'Barlow', sans-serif; outline:none;">
+  </div>
+
+  <!-- 01-B — Adresse E-mail -->
+  <div class="fgroup">
+    <label style="display:block; font-family:'Barlow Condensed', sans-serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--red); margin-bottom:12px;">01-B — Ton adresse e-mail <span style="color:var(--gold);">*</span></label>
+    <input type="email" id="f_email" name="email_client" placeholder="Ex : marie.nutrition@gmail.com" style="width:100%; padding:16px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:white; font-family:'Barlow', sans-serif; outline:none;">
+  </div>
+
+  <!-- 01-C — Numéro de Téléphone International (Sans restriction) -->
+  <div class="fgroup">
+    <label style="display:block; font-family:'Barlow Condensed', sans-serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--red); margin-bottom:12px;">01-C — Ton numéro de téléphone (Avec indicatif pays : ex +33, +240...) <span style="color:var(--gold);">*</span></label>
+    <input type="tel" id="f_tel" name="telephone_client" placeholder="Ex : +240 555 827 505, +33 6..." style="width:100%; padding:16px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:white; font-family:'Barlow', sans-serif; outline:none;">
+  </div>
+
+  <!-- 02 — Revenu mensuel (Couleurs sombres corrigées pour la lisibilité) -->
+  <div class="fgroup">
+    <label style="display:block; font-family:'Barlow Condensed', sans-serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--red); margin-bottom:12px;">02 — Ton revenu mensuel actuel <span style="color:var(--gold);">*</span></label>
+    <select id="f2" name="tranche_revenu" style="width:100%; padding:16px; background:#1a1a1a; border:1px solid rgba(255,255,255,0.2); color:white; font-family:'Barlow', sans-serif; cursor:pointer; outline:none;">
+      <option value="" disabled selected style="background:#1a1a1a; color:#888;">Sélectionne une tranche…</option>
+      <option style="background:#1a1a1a; color:white;">Moins de 100 000 FCFA</option>
+      <option style="background:#1a1a1a; color:white;">100 000 – 300 000 FCFA</option>
+      <option style="background:#1a1a1a; color:white;">300 000 – 500 000 FCFA</option>
+      <option style="background:#1a1a1a; color:white;">500 000 – 1 000 000 FCFA</option>
+      <option style="background:#1a1a1a; color:white;">Plus de 1 000 000 FCFA</option>
+      <option style="background:#1a1a1a; color:white;">Je préfère ne pas le préciser</option>
+    </select>
+  </div>
+
+  <!-- 03 — Plus grand blocage -->
+  <div class="fgroup">
+    <label style="display:block; font-family:'Barlow Condensed', sans-serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--red); margin-bottom:12px;">03 — Ton plus grand blocage aujourd'hui <span style="color:var(--gold);">*</span></label>
+    <textarea id="f3" name="plus_grand_blocage" placeholder="Décris-le librement et avec le plus de précision possible. Qu'est-ce qui te bloque réellement ?" style="width:100%; padding:16px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:white; font-family:'Barlow', sans-serif; min-height:120px; resize:vertical; outline:none;"></textarea>
+  </div>
+
+  <!-- 04 — Stagnation (Cases à cocher) -->
+  <div class="fgroup">
+    <label style="display:block; font-family:'Barlow Condensed', sans-serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--red); margin-bottom:12px;">04 — Depuis combien de temps subis-tu cette stagnation ? <span style="color:var(--gold);">*</span></label>
+    <div class="checkbox-group" style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+      <label style="display:flex; align-items:center; gap:12px; padding:14px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); cursor:pointer; font-size:13px; color:var(--white-dim);">
+        <input type="checkbox" name="duree_stagnation[]" value="Moins de 6 mois" style="width:auto; accent-color:var(--red);"> Moins de 6 mois
+      </label>
+      <label style="display:flex; align-items:center; gap:12px; padding:14px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); cursor:pointer; font-size:13px; color:var(--white-dim);">
+        <input type="checkbox" name="duree_stagnation[]" value="6 mois – 1 an" style="width:auto; accent-color:var(--red);"> 6 mois – 1 an
+      </label>
+      <label style="display:flex; align-items:center; gap:12px; padding:14px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); cursor:pointer; font-size:13px; color:var(--white-dim);">
+        <input type="checkbox" name="duree_stagnation[]" value="1 – 3 ans" style="width:auto; accent-color:var(--red);"> 1 – 3 ans
+      </label>
+      <label style="display:flex; align-items:center; gap:12px; padding:14px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); cursor:pointer; font-size:13px; color:var(--white-dim);">
+        <input type="checkbox" name="duree_stagnation[]" value="Plus de 3 ans" style="width:auto; accent-color:var(--red);"> Plus de 3 ans
+      </label>
+    </div>
+  </div>
+
+  <!-- 05 — Qu'as-tu déjà essayé ? -->
+  <div class="fgroup">
+    <label style="display:block; font-family:'Barlow Condensed', sans-serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--red); margin-bottom:12px;">05 — Qu'as-tu déjà essayé ? <span style="color:var(--gold);">*</span></label>
+    <textarea id="f5" name="essais_precedents" placeholder="Formations, coachs, stratégies, lectures, outils… Sois précis(e) sur ce que tu as testé." style="width:100%; padding:16px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:white; font-family:'Barlow', sans-serif; min-height:100px; outline:none;"></textarea>
+  </div>
+
+  <!-- 06 — Pourquoi veux-tu changer maintenant ? -->
+  <div class="fgroup">
+    <label style="display:block; font-family:'Barlow Condensed', sans-serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--red); margin-bottom:12px;">06 — Pourquoi veux-tu changer maintenant ? <span style="color:var(--gold);">*</span></label>
+    <textarea id="f6" name="raisons_changement" placeholder="Qu'est-ce qui t'a décidé(e) à agir aujourd'hui précisément ?" style="width:100%; padding:16px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:white; font-family:'Barlow', sans-serif; min-height:100px; outline:none;"></textarea>
+  </div>
+
+  <!-- 07 — Objectifs et Délai -->
+  <div class="fgroup">
+    <label style="display:block; font-family:'Barlow Condensed', sans-serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--red); margin-bottom:12px;">07 — Quels résultats précis vises-tu à travers ce protocole, et sous quel délai ? <span style="color:var(--gold);">*</span></label>
+    <textarea id="f_objectifs" name="resultats_et_delai" placeholder="Ex: Structurer mon entreprise pour déléguer d'ici 3 mois, doubler mon chiffre d'affaires d'ici la fin de l'année..." style="width:100%; padding:16px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:white; font-family:'Barlow', sans-serif; min-height:100px; outline:none;"></textarea>
+  </div>
+
+  <!-- 08 — Investissement Financier (Boutons Radios sous forme de listes cliquables) -->
+  <div class="fgroup">
+    <label style="display:block; font-family:'Barlow Condensed', sans-serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--red); margin-bottom:12px;">08 — Es-tu prêt(e) à investir financièrement dans un accompagnement sérieux ? <span style="color:var(--gold);">*</span></label>
+    <div class="checkbox-group" style="display:flex; flex-direction:column; gap:10px;">
+      <label style="display:flex; align-items:center; gap:12px; padding:16px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); cursor:pointer; font-size:13px; color:var(--white-dim);">
+        <input type="radio" name="pret_investir" value="Oui, absolument" style="width:auto; accent-color:var(--red);"> Oui, absolument
+      </label>
+      <label style="display:flex; align-items:center; gap:12px; padding:16px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); cursor:pointer; font-size:13px; color:var(--white-dim);">
+        <input type="radio" name="pret_investir" value="Oui, si cela correspond exactement à mes besoins actuels" style="width:auto; accent-color:var(--red);"> Oui, si cela correspond exactement à mes besoins actuels
+      </label>
+    </div>
+  </div>
+
+  <!-- 09 — Formule d'accompagnement (Bouton Radio pour choix UNIQUE + Menus Déroulants) -->
+  <div class="fgroup">
+    <label style="display:block; font-family:'Barlow Condensed', sans-serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--red); margin-bottom:12px;">09 — Quelle formule d'accompagnement correspond à tes ambitions actuelles ? <span style="color:var(--gold);">*</span></label>
+    
+    <div style="display:flex; flex-direction:column; gap:12px; margin-bottom: 16px;">
+      
+      <!-- Formule 1 Mois -->
+      <div class="program-accordion" style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); border-radius: 4px;">
+        <div style="padding:16px; display:flex; align-items:center; gap:12px;">
+          <input type="radio" name="formule_choisie" value="TON GÉNIE INTÉRIEUR — 1 Mois" style="width:auto; accent-color:var(--red); cursor:pointer;">
+          <div onclick="toggleProgramDirect(this)" style="flex-grow:1; display:flex; justify-content:space-between; align-items:center; cursor:pointer; font-weight:600;">
+            <span style="font-family:'Barlow Condensed', sans-serif; letter-spacing:1px; text-transform:uppercase;">TON GÉNIE INTÉRIEUR — 1 Mois</span>
+            <span class="arrow" style="color:var(--red); font-size:12px;">DÉTAILS ▼</span>
+          </div>
+        </div>
+        <div class="content" style="display:none; padding:16px; border-top:1px solid rgba(255,255,255,0.05); font-size:13px; color:var(--white-dim); line-height:1.6; background: rgba(0,0,0,0.2);">
+          <p style="color:var(--gold); font-weight:600; margin-bottom:8px;">MODULE 1 : "Identité"</p>
+          <p style="margin-bottom:8px;"><strong>Objectif :</strong> Découvrir qui tu es réellement. Cela passe par l'identification du SOI réel.</p>
+          <ul style="padding-left:16px; margin-bottom:12px; color:var(--white-dim); list-style-type: square;">
+            <li>Identité intérieure</li>
+            <li>Talents cachés</li>
+            <li>Tracking-in de ton potentiel et de tes dons</li>
+            <li>Cohérence entre tes aspirations et ta vraie direction</li>
+          </ul>
+          <p style="font-style:italic; color:var(--white-faint); font-size:0.85rem; border-top:1px solid rgba(255,255,255,0.03); padding-top:8px;">"Pour mieux connaître là où on va, on doit absolument connaître qui on est."</p>
+        </div>
+      </div>
+
+      <!-- Formule 3 Mois -->
+      <div class="program-accordion" style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); border-radius: 4px;">
+        <div style="padding:16px; display:flex; align-items:center; gap:12px;">
+          <input type="radio" name="formule_choisie" value="PRISE DE POUVOIR — 3 Mois" style="width:auto; accent-color:var(--red); cursor:pointer;">
+          <div onclick="toggleProgramDirect(this)" style="flex-grow:1; display:flex; justify-content:space-between; align-items:center; cursor:pointer; font-weight:600;">
+            <span style="font-family:'Barlow Condensed', sans-serif; letter-spacing:1px; text-transform:uppercase;">PRISE DE POUVOIR — 3 Mois</span>
+            <span class="arrow" style="color:var(--red); font-size:12px;">DÉTAILS ▼</span>
+          </div>
+        </div>
+        <div class="content" style="display:none; padding:16px; border-top:1px solid rgba(255,255,255,0.05); font-size:13px; color:var(--white-dim); line-height:1.6; background: rgba(0,0,0,0.2);">
+          <p style="color:var(--gold); font-weight:700; margin-bottom:8px;">⚠️ INCLUS : L'intégralité du programme de 1 Mois (Génie Intérieur)</p>
+          <p style="margin-bottom:8px;"><strong>Objectif :</strong> Libérer les freins, les blocages, les peurs (5 pas vers son rayonnement).</p>
+          <p style="margin-bottom:4px; font-weight:500; color:var(--white);">Le travail se fait en profondeur dans :</p>
+          <ul style="padding-left:16px; margin-bottom:12px; color:var(--white-dim); list-style-type: square;">
+            <li>Les émotions</li>
+            <li>Les blessures intérieures</li>
+            <li>Les schémas répétitifs</li>
+            <li>La confiance</li>
+            <li>L'énergie</li>
+            <li>Le leadership intérieur</li>
+            <li>L'amorcement du POSITIONNEMENT</li>
+          </ul>
+          <p style="font-style:italic; color:var(--white-faint); font-size:0.85rem; border-top:1px solid rgba(255,255,255,0.03); padding-top:8px;">"Qu'est-ce qui te freine ou te propulse vraiment ? Plus on reconnaît, plus on devient capable de s'aligner intérieurement avec ce qu'on veut vraiment extérieurement."</p>
+        </div>
+      </div>
+
+      <!-- Formule 6 Mois -->
+      <div class="program-accordion" style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); border-radius: 4px;">
+        <div style="padding:16px; display:flex; align-items:center; gap:12px;">
+          <input type="radio" name="formule_choisie" value="LE CONTRÔLE DU SAVOIR QUI TE PROPULSE — 6 Mois" style="width:auto; accent-color:var(--red); cursor:pointer;">
+          <div onclick="toggleProgramDirect(this)" style="flex-grow:1; display:flex; justify-content:space-between; align-items:center; cursor:pointer; font-weight:600;">
+            <span style="font-family:'Barlow Condensed', sans-serif; letter-spacing:1px; text-transform:uppercase;">LE CONTRÔLE DU SAVOIR QUI TE PROPULSE — 6 Mois</span>
+            <span class="arrow" style="color:var(--red); font-size:12px;">DÉTAILS ▼</span>
+          </div>
+        </div>
+        <div class="content" style="display:none; padding:16px; border-top:1px solid rgba(255,255,255,0.05); font-size:13px; color:var(--white-dim); line-height:1.6; background: rgba(0,0,0,0.2);">
+          <p style="color:var(--gold); font-weight:700; margin-bottom:8px;">⚠️ INCLUS : L'intégralité du programme sur 1 Mois et sur 3 Mois (Génie & Pouvoir)</p>
+          <p style="margin-bottom:8px;"><strong>Objectif :</strong> Construire ce qui te fait avancer en toute sérénité.</p>
+          <p style="margin-bottom:8px; color:var(--white);">Ici, On travaille sur ta Structure et ta discipline, mais aussi sur ton Leadership et ton impact. QUI DEVIENT DANS CE MONDE ? TA PLACE DE LUMINOSITÉ.</p>
+          <ul style="padding-left:16px; margin-bottom:12px; color:var(--white-dim); list-style-type: square;">
+            <li>La stratégie qui te PROPULSE au rang recherché</li>
+            <li>La discipline qui triple ton portefeuille</li>
+            <li>Les décisions qui guident ta réussite</li>
+            <li>Les leviers actionnables</li>
+            <li>Comment te servir de tes résultats pour les tripler davantage</li>
+          </ul>
+          <p style="font-style:italic; color:var(--white-faint); font-size:0.85rem; border-top:1px solid rgba(255,255,255,0.03); padding-top:8px;">"Construire concrètement tes rêves dans ce monde de POSSIBILITÉS, Ça te tente ?"</p>
+        </div>
+      </div>
+
+      <!-- Formation Intégrale Express -->
+      <div class="program-accordion" style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.08); border-radius: 4px;">
+        <div style="padding:16px; display:flex; align-items:center; gap:12px;">
+          <input type="radio" name="formule_choisie" value="EXPRESS TRACKING-IN DE LA BOUSSOLE GPS" style="width:auto; accent-color:var(--red); cursor:pointer;">
+          <div onclick="toggleProgramDirect(this)" style="flex-grow:1; display:flex; justify-content:space-between; align-items:center; cursor:pointer; font-weight:600;">
+            <span style="font-family:'Barlow Condensed', sans-serif; letter-spacing:1px; text-transform:uppercase;">EXPRESS TRACKING-IN DE LA BOUSSOLE GPS</span>
+            <span class="arrow" style="color:var(--red); font-size:12px;">DÉTAILS ▼</span>
+          </div>
+        </div>
+        <div class="content" style="display:none; padding:16px; border-top:1px solid rgba(255,255,255,0.05); font-size:13px; color:var(--white-dim); line-height:1.6; background: rgba(0,0,0,0.2);">
+          <p style="margin-bottom:12px;"><strong>Formation intégrale intensive :</strong> Inclut tous les différents programmes uniquement mais condensés sur <strong>3 mois chronos</strong>.</p>
+          
+          <div class="internal-warning-note" style="border-top:1px solid rgba(200,0,26,0.3); padding-top:12px; margin-top:12px; font-size:0.82rem; color:var(--white-dim);">
+            <p style="margin-bottom:6px; font-weight:700; color:var(--red); text-transform:uppercase;">⚠️ Note sur le travail de profondeur :</p>
+            <p style="margin-bottom:8px; font-style:italic;">Le travail intérieur n'est pas une sorte de méthode rapide à prendre à la légère. C'est un travail de profondeur qui nécessite un <strong>PROCESSUS PROGRESSIF ET ÉVOLUTIF</strong>.</p>
+            <p style="color:var(--white-faint);">Ici, ce ne sont pas les cours théoriques à recopier. Le travail se fait avec votre propre réalité quotidienne. Donc, les programmes même express, nécessitent un temps d'acceptation et d'exécution entre votre cerveau, votre corps, votre environnement et votre réalité.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 10 — Engagement Global -->
+  <div class="fgroup">
+    <label style="display:block; font-family:'Barlow Condensed', sans-serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--red); margin-bottom:12px;">10 — Es-tu prêt(e) à t'engager pleinement ? <span style="color:var(--gold);">*</span></label>
+    <div class="checkbox-group" style="display:flex; flex-direction:column; gap:10px;">
+      <label style="display:flex; align-items:center; gap:12px; padding:16px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); cursor:pointer; font-size:13px; color:var(--white-dim);">
+        <input type="radio" name="engagement_total" value="Oui, à 100%" style="width:auto; accent-color:var(--red);"> Oui, à 100%
+      </label>
+      <label style="display:flex; align-items:center; gap:12px; padding:16px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); cursor:pointer; font-size:13px; color:var(--white-dim);">
+        <input type="radio" name="engagement_total" value="Oui, avec du soutien" style="width:auto; accent-color:var(--red);"> Oui, avec du soutien
+      </label>
+      <label style="display:flex; align-items:center; gap:12px; padding:16px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); cursor:pointer; font-size:13px; color:var(--white-dim);">
+        <input type="radio" name="engagement_total" value="J'ai encore des doutes" style="width:auto; accent-color:var(--red);"> J'ai encore des doutes
+      </label>
+    </div>
+  </div>
+
+  <div class="form-footer" style="text-align:center; margin-top:20px;">
+    <button type="button" class="btn btn-red" onclick="submitForm()" style="width:100%; padding:22px; font-weight:900; letter-spacing:3px; cursor:pointer;">
+      Soumettre ma candidature →
+    </button>
+  </div>
+</form>
+    <div class="page-nav">
+      <button class="back-btn" onclick="goTo(9)">← Retour</button>
+      <div class="dots" id="d10"></div>
+    </div>
+  </div>
+</section>
+<section id="p11" class="page bg-dark" style="justify-content:center; align-items:center;">
+  <div class="noise"></div>
+  <div class="grid-lines"></div>
+  <div class="glow-red" style="width:400px;height:400px;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.3;"></div>
+
+  <div class="inner-center" style="text-align:center;">
+    <div class="rdv-selected" style="display:inline-flex; align-items:center; gap:10px; background:rgba(0,200,100,0.1); border:1px solid #00C864; color:#00C864; padding:8px 16px; border-radius:50px; font-family:'Barlow Condensed', sans-serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; margin-bottom:24px;">
+      <span class="check" style="font-weight:900;">✓</span> Candidature reçue
+    </div>
+    <div class="slide-image-wrap">
+      <img src="slides11.jpg" alt="Bio Korina KAJ">
+    </div>
+    <div class="rdv-headline" style="font-family:'Cormorant Garamond', serif; font-size:clamp(2rem,6vw,4rem); font-weight:700; line-height:1.1; margin-bottom:20px;">
+      Tu es sélectionné(e).<br>
+      <span class="accent" style="color:var(--red);">Réserve ton appel.</span>
+    </div>
+
+    <p class="rdv-msg" style="font-size:1.05rem; color:var(--white); margin-bottom:12px; max-width:600px; margin-left:auto; margin-right:auto;">Je ne travaille pas avec tout le monde. Si tu es arrivé(e) jusqu'ici et que tu as répondu avec sincérité — tu mérites cet espace stratégique.</p>
+    <p class="rdv-sub" style="font-size:0.9rem; color:var(--white-dim); margin-bottom:32px; max-width:550px; margin-left:auto; margin-right:auto; line-height:1.6;">Cet appel est gratuit, sans engagement. C'est un échange de 30 à 45 minutes pour évaluer ensemble si le Protocole GPS est la bonne réponse à ta situation.</p>
+
+    <div class="rdv-steps" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:15px; margin-bottom:40px;">
+      <div class="rdv-step" style="background:rgba(255,255,255,0.03); padding:20px 10px; border:1px solid rgba(255,255,255,0.05);">
+        <div class="sn" style="font-family:'Barlow Condensed', sans-serif; color:var(--gold); font-size:10px; letter-spacing:1px; text-transform:uppercase; margin-bottom:8px;">Étape 1</div>
+        <p style="font-size:0.8rem; line-height:1.4;">Candidature soumise</p>
+      </div>
+      <div class="rdv-step" style="background:rgba(255,255,255,0.03); padding:20px 10px; border:1px solid var(--red);">
+        <div class="sn" style="font-family:'Barlow Condensed', sans-serif; color:var(--red); font-size:10px; letter-spacing:1px; text-transform:uppercase; margin-bottom:8px;">Étape 2</div>
+        <p style="font-size:0.8rem; line-height:1.4;">Choix du créneau</p>
+      </div>
+      <div class="rdv-step" style="background:rgba(255,255,255,0.03); padding:20px 10px; border:1px solid rgba(255,255,255,0.05);">
+        <div class="sn" style="font-family:'Barlow Condensed', sans-serif; color:var(--gold); font-size:10px; letter-spacing:1px; text-transform:uppercase; margin-bottom:8px;">Étape 3</div>
+        <p style="font-size:0.8rem; line-height:1.4;">Évaluation &amp; Décision</p>
+      </div>
+    </div>
+
+    <div class="conversion-zone" style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.05); padding:40px 20px; border-radius:4px; margin-bottom:24px; box-shadow:0 20px 50px rgba(200,0,26,0.2);">
+      <div class="icon" style="font-size:2rem; margin-bottom:16px;">📅</div>
+      <p style="color:white; font-size:0.95rem; line-height:1.6; margin-bottom:24px; font-weight:500;">Choisis le créneau qui te convient le mieux pour notre appel stratégique. Les places sont limitées — réserve maintenant.</p>
+      
+      <div class="cta-wrapper" style="display:flex; flex-direction:column; gap:16px; max-width:420px; margin:0 auto;">
+        <a href="https://calendly.com/korinakaj12/new-meeting" target="_blank" style="display:block; background:var(--red); color:white; padding:18px 24px; font-family:'Barlow Condensed', sans-serif; font-size:15px; font-weight:900; text-transform:uppercase; letter-spacing:2px; text-decoration:none; transition:0.3s; text-align:center; box-shadow:0 10px 30px rgba(200,0,26,0.25);">
+          Réserver mon appel stratégique →
+        </a>
+
+        <a href="mailto:coaching@korinakaj.com?subject=Candidature%20Protocole%20GPS%20-%20Premium&body=Bonjour%20Korina%2C%20je%20viens%20de%20soumettre%20ma%20candidature%20et%20je%20souhaite%20confirmer%20mon%20intérêt%20pour%20le%20Protocole%20GPS." 
+           style="display:block; background:transparent; color:white; border:2px solid var(--white-dim); padding:16px 24px; font-family:'Barlow Condensed', sans-serif; font-size:15px; font-weight:700; text-transform:uppercase; letter-spacing:2px; text-decoration:none; transition:0.3s; text-align:center;">
+          ✉️ Confirmer par Email Pro
+        </a>
+      </div>
+    </div>
+
+    <p style="font-size:0.82rem; color:var(--white-dim); font-style:italic; margin-bottom:40px;">
+      Tu peux aussi me contacter directement sur WhatsApp en écrivant <strong>"STRUCTURE"</strong> au +240 555 827 505 si tu préfères.
+    </p>
+
+    <div class="rule-full"></div>
+
+    <div class="final-sig" style="margin-top:32px; margin-bottom:32px;">
+      <div class="name" style="font-family:'Barlow Condensed', sans-serif; font-size:1.4rem; font-weight:800; text-transform:uppercase; letter-spacing:3px; color:white;">Korina KAJ</div>
+      <div class="role" style="font-family:'Cormorant Garamond', serif; font-size:1rem; font-style:italic; color:var(--gold); margin-bottom:12px;">La Lionne GPS — Coach &amp; Stratège</div>
+      <div class="sig" style="font-size:0.75rem; letter-spacing:1px; color:var(--white-faint);">"Entre ton Génie et ton Pouvoir, ACTIVE LE SAVOIR ✍️"</div>
+    </div>
+
+    <div class="footer-credentials" style="background: rgba(255, 255, 255, 0.01); border: 1px solid rgba(255, 255, 255, 0.04); padding: 24px; max-width: 480px; margin: 32px auto 0 auto; text-align: center; font-family: 'Barlow', sans-serif;">
+      <div style="font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; font-weight: 700;">
+        📍 Bureau &amp; Contacts
+      </div>
+      
+      <p style="font-size: 0.88rem; color: var(--white); margin: 4px 0; font-weight: 500;">
+        Malabo, Guinée Équatoriale
+      </p>
+      <p style="font-size: 0.82rem; color: var(--white-dim); margin: 0 0 16px 0; line-height: 1.5;">
+        Quartier Caracolas, Immeuble GPS, 2ème Étage
+      </p>
+      
+      <div style="width: 40px; height: 1px; background: rgba(255,255,255,0.1); margin: 12px auto;"></div>
+
+      <p style="font-size: 0.85rem; color: var(--white-dim); margin: 4px 0;">
+        <span style="color: var(--red); font-weight: 600;">Tel :</span> +240 555 827 505
+      </p>
+      <p style="font-size: 0.85rem; color: var(--white-dim); margin: 4px 0;">
+        <span style="color: var(--red); font-weight: 600;">Email :</span> coaching@korinakaj.com
+      </p>
+    </div>
+<a href="../index.html" class="back-to-site">← Retour au site officiel</a>
+    <div class="page-nav" style="width:100%; margin-top:40px;">
+      <button class="back-btn" onclick="goTo(10)">← Retour</button>
+      <div class="dots" id="d11"></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<script src="tracking-inGPS.js"></script>
+</body>
+</html>
